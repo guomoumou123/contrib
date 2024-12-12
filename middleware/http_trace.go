@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"gitlab.seakoi.net/root/contrib/log"
-	innermetrics "gitlab.seakoi.net/root/contrib/otlp/metrics"
-	innertrace "gitlab.seakoi.net/root/contrib/otlp/trace"
+	"github.com/guomoumou123/contrib/log"
+	innermetrics "github.com/guomoumou123/contrib/otlp/metrics"
+	innertrace "github.com/guomoumou123/contrib/otlp/trace"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace"
 	"go.opentelemetry.io/contrib/propagators/b3"
 	"go.opentelemetry.io/otel"

@@ -1,4 +1,4 @@
-module gitlab.seakoi.net/root/contrib
+module github.com/guomoumou123/contrib
 
 go 1.22
 

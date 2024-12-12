@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	ictx "gitlab.seakoi.net/root/contrib/context"
+	ictx "github.com/guomoumou123/contrib/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gorm.io/gorm/utils"
